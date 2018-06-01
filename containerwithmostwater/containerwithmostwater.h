@@ -27,8 +27,8 @@ public:
             leftHeight = height.at(left);
             rightHeight = height.at(right);
             indexDiff = right - left;
-            int waterHeigh = min(leftHeight, rightHeight);
-            maxWater = max(maxWater, indexDiff * waterHeigh);
+            int waterHeigh = leftHeight < rightHeight ? leftHeight : rightHeight;
+            maxWater = maxWater > (indexDiff * waterHeigh) ? maxWater : (indexDiff * waterHeigh);
 
             if (leftHeight < rightHeight)
                 left++;
