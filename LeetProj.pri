@@ -7,7 +7,9 @@ HEADERS += \
     $$PWD/palindromenumber/palindromenumber.h \
     $$PWD/reverseinteger/reverseinteger.h \
     $$PWD/SearchinRotatedSortedArray/SearchinRotatedSortedArray.h \
-    $$PWD/twosum/twosum.h
+    $$PWD/twosum/twosum.h \
+    $$PWD/FindKClosestElements/findkclosestelements.h \
+    $$PWD/TopKFrequentElements/topkfrequentelements.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -27,4 +29,8 @@ SOURCES += \
     $$PWD/SearchinRotatedSortedArray/SearchinRotatedSortedArray.cpp \
     $$PWD/SearchinRotatedSortedArray/test_SearchinRotatedSortedArray.cpp \
     $$PWD/twosum/test_twosum.cpp \
-    $$PWD/twosum/twosum.cpp
+    $$PWD/twosum/twosum.cpp \
+    $$PWD/FindKClosestElements/findkclosestelements.cpp \
+    $$PWD/FindKClosestElements/test_findkclosestelements.cpp \
+    $$PWD/TopKFrequentElements/topkfrequentelements.cpp \
+    $$PWD/TopKFrequentElements/test_topkfrequentelements.cpp

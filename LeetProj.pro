@@ -13,4 +13,5 @@ MOC_DIR += ./GeneratedFiles/debug
 OBJECTS_DIR += debug
 UI_DIR += ./GeneratedFiles
 RCC_DIR += ./GeneratedFiles
+QMAKE_CXXFLAGS += -std=c++11
 include(LeetProj.pri)
