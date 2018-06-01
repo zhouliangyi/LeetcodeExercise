@@ -9,7 +9,8 @@ HEADERS += \
     $$PWD/SearchinRotatedSortedArray/SearchinRotatedSortedArray.h \
     $$PWD/twosum/twosum.h \
     $$PWD/FindKClosestElements/findkclosestelements.h \
-    $$PWD/TopKFrequentElements/topkfrequentelements.h
+    $$PWD/TopKFrequentElements/topkfrequentelements.h \
+    $$PWD/NextGreaterElementI/nextgreaterelementi.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -33,4 +34,6 @@ SOURCES += \
     $$PWD/FindKClosestElements/findkclosestelements.cpp \
     $$PWD/FindKClosestElements/test_findkclosestelements.cpp \
     $$PWD/TopKFrequentElements/topkfrequentelements.cpp \
-    $$PWD/TopKFrequentElements/test_topkfrequentelements.cpp
+    $$PWD/TopKFrequentElements/test_topkfrequentelements.cpp \
+    $$PWD/NextGreaterElementI/nextgreaterelementi.cpp \
+    $$PWD/NextGreaterElementI/test_nextgreaterelementi.cpp

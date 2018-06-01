@@ -33,25 +33,18 @@ public:
     {
         // key对应出现的值，value对应出现次数 统计出现次数
         unordered_map<int, int> hash;
-        for (int i = 0; i < nums.size(); i++) {
-            int v = nums.at(i);
-            auto found = hash.find(v);
-            if (found != hash.end())
-                hash[v]++;
-            else {
-                hash.insert(pair<int, int>(v, 1));
-            }
+        for (auto v : nums) {
+            hash[v]++;
         }
 
         // 将 数值-次数 更改为次数-数值
         vector<int> result;
         multimap<int, int> count2value;
-        for (auto it = hash.begin(); it != hash.end(); ++it) {
-            count2value.insert(pair<int, int>((*it).second, (*it).first));
+        for (auto v : hash) {
+            count2value.insert(pair<int, int>(v.second, v.first));
         }
 
         // 从次数-数值 取后k个元素
-        int c = 0;
         for (auto it = count2value.rbegin(); it != count2value.rend(); ++it) {
             if (result.size() < k) {
                 result.push_back((*it).second);
