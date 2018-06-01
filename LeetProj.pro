@@ -3,7 +3,7 @@ TEMPLATE = app
 TARGET = LeetProj
 DESTDIR = ./Win32/Debug
 QT += core gui
-CONFIG += debug console
+CONFIG += debug console testcase
 DEFINES += QT_LARGEFILE_SUPPORT QT_DLL
 INCLUDEPATH += ./GeneratedFiles \
     . \
