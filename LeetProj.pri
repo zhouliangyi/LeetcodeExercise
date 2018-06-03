@@ -10,7 +10,8 @@ HEADERS += \
     $$PWD/twosum/twosum.h \
     $$PWD/FindKClosestElements/findkclosestelements.h \
     $$PWD/TopKFrequentElements/topkfrequentelements.h \
-    $$PWD/NextGreaterElementI/nextgreaterelementi.h
+    $$PWD/NextGreaterElementI/nextgreaterelementi.h \
+    $$PWD/GrayCode/graycode.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -36,4 +37,6 @@ SOURCES += \
     $$PWD/TopKFrequentElements/topkfrequentelements.cpp \
     $$PWD/TopKFrequentElements/test_topkfrequentelements.cpp \
     $$PWD/NextGreaterElementI/nextgreaterelementi.cpp \
-    $$PWD/NextGreaterElementI/test_nextgreaterelementi.cpp
+    $$PWD/NextGreaterElementI/test_nextgreaterelementi.cpp \
+    $$PWD/GrayCode/graycode.cpp \
+    $$PWD/GrayCode/test_graycode.cpp
