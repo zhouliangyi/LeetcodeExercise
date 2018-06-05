@@ -15,7 +15,10 @@ HEADERS += \
     $$PWD/RangeModule/rangemodule.h \
     $$PWD/RotateImage/rotateimage.h \
     $$PWD/PlusOne/plusone.h \
-    $$PWD/AddBinary/addbinary.h
+    $$PWD/AddBinary/addbinary.h \
+    $$PWD/4Sum/foursum.h \
+    $$PWD/3Sum/threesumclass.h \
+    $$PWD/3Sum/threesumclass.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -52,4 +55,7 @@ SOURCES += \
     $$PWD/RangeModule/test_rangemodule.cpp \
     $$PWD/PlusOne/test_plusone.cpp \
     $$PWD/AddBinary/addbinary.cpp \
-    $$PWD/AddBinary/test_addbinary.cpp
+    $$PWD/AddBinary/test_addbinary.cpp \
+    $$PWD/4Sum/foursum.cpp \
+    $$PWD/4Sum/test_foursum.cpp \
+    $$PWD/3Sum/testthreesumclass.cpp
