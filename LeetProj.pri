@@ -11,7 +11,11 @@ HEADERS += \
     $$PWD/FindKClosestElements/findkclosestelements.h \
     $$PWD/TopKFrequentElements/topkfrequentelements.h \
     $$PWD/NextGreaterElementI/nextgreaterelementi.h \
-    $$PWD/GrayCode/graycode.h
+    $$PWD/GrayCode/graycode.h \
+    $$PWD/RangeModule/rangemodule.h \
+    $$PWD/RotateImage/rotateimage.h \
+    $$PWD/PlusOne/plusone.h \
+    $$PWD/AddBinary/addbinary.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -39,4 +43,13 @@ SOURCES += \
     $$PWD/NextGreaterElementI/nextgreaterelementi.cpp \
     $$PWD/NextGreaterElementI/test_nextgreaterelementi.cpp \
     $$PWD/GrayCode/graycode.cpp \
-    $$PWD/GrayCode/test_graycode.cpp
+    $$PWD/GrayCode/test_graycode.cpp \
+    $$PWD/RangeModule/rangemodule.cpp \
+    $$PWD/RangeModule/test_rangemodule.cpp \
+    $$PWD/RotateImage/rotateimage.cpp \
+    $$PWD/RotateImage/test_rotateimage.cpp \
+    $$PWD/PlusOne/plusone.cpp \
+    $$PWD/RangeModule/test_rangemodule.cpp \
+    $$PWD/PlusOne/test_plusone.cpp \
+    $$PWD/AddBinary/addbinary.cpp \
+    $$PWD/AddBinary/test_addbinary.cpp
