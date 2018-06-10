@@ -18,7 +18,8 @@ HEADERS += \
     $$PWD/AddBinary/addbinary.h \
     $$PWD/4Sum/foursum.h \
     $$PWD/3Sum/threesumclass.h \
-    $$PWD/3Sum/threesumclass.h
+    $$PWD/3Sum/threesumclass.h \
+    $$PWD/ReachingPoints/reachingpoints.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -58,4 +59,5 @@ SOURCES += \
     $$PWD/AddBinary/test_addbinary.cpp \
     $$PWD/4Sum/foursum.cpp \
     $$PWD/4Sum/test_foursum.cpp \
-    $$PWD/3Sum/testthreesumclass.cpp
+    $$PWD/3Sum/testthreesumclass.cpp \
+    $$PWD/ReachingPoints/test_reachingpoints.cpp
