@@ -34,9 +34,11 @@ public:
         if (nums.size() < 3)
             return result;
 
+        // 排序
         set<vector<int>> resultSet;
         sort(nums.begin(), nums.end());
 
+        // 给两个index分别从当前值的下一个和整个序列的最后一个相向寻找，如果找到就放入结果中
         for (int i = 0; i < nums.size() - 2; i++) {
             int current = nums.at(i);
             int target = 0 - current;
