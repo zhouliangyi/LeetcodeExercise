@@ -22,7 +22,8 @@ HEADERS += \
     $$PWD/ReachingPoints/reachingpoints.h \
     $$PWD/ReverseNodesink-Group/reversenodesinkgroup.h \
     $$PWD/Matrix/matrix.h \
-    $$PWD/1-bitAnd2-bitCharacters/onebitcharactersolution.h
+    $$PWD/1-bitAnd2-bitCharacters/onebitcharactersolution.h \
+    $$PWD/132Pattern/pattern132.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -67,4 +68,6 @@ SOURCES += \
     $$PWD/Matrix/matrix.cpp \
     $$PWD/Matrix/test_matrix.cpp \
     $$PWD/1-bitAnd2-bitCharacters/onebitcharactersolution.cpp \
-    $$PWD/1-bitAnd2-bitCharacters/test_onebitcharactersolution.cpp
+    $$PWD/1-bitAnd2-bitCharacters/test_onebitcharactersolution.cpp \
+    $$PWD/132Pattern/pattern132.cpp \
+    $$PWD/132Pattern/test_pattern132.cpp
