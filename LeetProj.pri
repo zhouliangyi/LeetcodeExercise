@@ -24,7 +24,8 @@ HEADERS += \
     $$PWD/Matrix/matrix.h \
     $$PWD/1-bitAnd2-bitCharacters/onebitcharactersolution.h \
     $$PWD/132Pattern/pattern132.h \
-    GasStation/gasstation.h
+    GasStation/gasstation.h \
+    $$PWD/ClimbingStairs/climbingstairs.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -73,4 +74,6 @@ SOURCES += \
     $$PWD/132Pattern/pattern132.cpp \
     $$PWD/132Pattern/test_pattern132.cpp \
     GasStation/gasstation.cpp \
-    GasStation/test_GasStation.cpp
+    GasStation/test_GasStation.cpp \
+    $$PWD/ClimbingStairs/climbingstairs.cpp \
+    $$PWD/ClimbingStairs/test_ClimbingStairs.cpp
