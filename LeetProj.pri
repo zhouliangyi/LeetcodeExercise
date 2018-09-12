@@ -21,7 +21,8 @@ HEADERS += \
     $$PWD/3Sum/threesumclass.h \
     $$PWD/ReachingPoints/reachingpoints.h \
     $$PWD/ReverseNodesink-Group/reversenodesinkgroup.h \
-    $$PWD/Matrix/matrix.h
+    $$PWD/Matrix/matrix.h \
+    $$PWD/1-bitAnd2-bitCharacters/onebitcharactersolution.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -64,4 +65,6 @@ SOURCES += \
     $$PWD/3Sum/testthreesumclass.cpp \
     $$PWD/ReachingPoints/test_reachingpoints.cpp \
     $$PWD/Matrix/matrix.cpp \
-    $$PWD/Matrix/test_matrix.cpp
+    $$PWD/Matrix/test_matrix.cpp \
+    $$PWD/1-bitAnd2-bitCharacters/onebitcharactersolution.cpp \
+    $$PWD/1-bitAnd2-bitCharacters/test_onebitcharactersolution.cpp
