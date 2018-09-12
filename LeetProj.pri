@@ -26,7 +26,9 @@ HEADERS += \
     $$PWD/132Pattern/pattern132.h \
     GasStation/gasstation.h \
     $$PWD/ClimbingStairs/climbingstairs.h \
-    $$PWD/LongestConsecutiveSequence/longestconsecutivesequencesolution.h
+    $$PWD/LongestConsecutiveSequence/longestconsecutivesequencesolution.h \
+    $$PWD/3SumClosest/threesumclasscloset.h \
+    $$PWD/3SumClosest/threesumclasscloset.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -79,4 +81,6 @@ SOURCES += \
     $$PWD/ClimbingStairs/climbingstairs.cpp \
     $$PWD/ClimbingStairs/test_ClimbingStairs.cpp \
     $$PWD/LongestConsecutiveSequence/longestconsecutivesequencesolution.cpp \
-    $$PWD/LongestConsecutiveSequence/test_LongestConsecutiveSequence.cpp
+    $$PWD/LongestConsecutiveSequence/test_LongestConsecutiveSequence.cpp \
+    $$PWD/3SumClosest/threesumclasscloset.cpp \
+    $$PWD/3SumClosest/test_3SumClosest.cpp
