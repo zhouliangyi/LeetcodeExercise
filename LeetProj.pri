@@ -28,7 +28,8 @@ HEADERS += \
     $$PWD/ClimbingStairs/climbingstairs.h \
     $$PWD/LongestConsecutiveSequence/longestconsecutivesequencesolution.h \
     $$PWD/3SumClosest/threesumclasscloset.h \
-    $$PWD/3SumClosest/threesumclasscloset.h
+    $$PWD/3SumClosest/threesumclasscloset.h \
+    $$PWD/SearchInsertPosition/searchinsertposition.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -83,4 +84,6 @@ SOURCES += \
     $$PWD/LongestConsecutiveSequence/longestconsecutivesequencesolution.cpp \
     $$PWD/LongestConsecutiveSequence/test_LongestConsecutiveSequence.cpp \
     $$PWD/3SumClosest/threesumclasscloset.cpp \
-    $$PWD/3SumClosest/test_3SumClosest.cpp
+    $$PWD/3SumClosest/test_3SumClosest.cpp \
+    $$PWD/SearchInsertPosition/searchinsertposition.cpp \
+    $$PWD/SearchInsertPosition/test_SearchInsertPosition.cpp
