@@ -30,7 +30,8 @@ HEADERS += \
     $$PWD/3SumClosest/threesumclasscloset.h \
     $$PWD/3SumClosest/threesumclasscloset.h \
     $$PWD/SearchInsertPosition/searchinsertposition.h \
-    $$PWD/JumpGame/jumpgame.h
+    $$PWD/JumpGame/jumpgame.h \
+    $$PWD/SpiralMatrixII/spiralmatrixii.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -89,4 +90,6 @@ SOURCES += \
     $$PWD/SearchInsertPosition/searchinsertposition.cpp \
     $$PWD/SearchInsertPosition/test_SearchInsertPosition.cpp \
     $$PWD/JumpGame/jumpgame.cpp \
-    $$PWD/JumpGame/test_jumpgame.cpp
+    $$PWD/JumpGame/test_jumpgame.cpp \
+    $$PWD/SpiralMatrixII/spiralmatrixii.cpp \
+    $$PWD/SpiralMatrixII/test_SpiralMatrixII.cpp
