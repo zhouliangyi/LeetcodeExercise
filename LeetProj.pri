@@ -32,7 +32,8 @@ HEADERS += \
     $$PWD/SearchInsertPosition/searchinsertposition.h \
     $$PWD/JumpGame/jumpgame.h \
     $$PWD/SpiralMatrixII/spiralmatrixii.h \
-    $$PWD/SpiralMatrix/spiralmatrix.h
+    $$PWD/SpiralMatrix/spiralmatrix.h \
+    $$PWD/SearchA2DMatrix/searcha2dmatrix.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -95,4 +96,6 @@ SOURCES += \
     $$PWD/SpiralMatrixII/spiralmatrixii.cpp \
     $$PWD/SpiralMatrixII/test_SpiralMatrixII.cpp \
     $$PWD/SpiralMatrix/spiralmatrix.cpp \
-    $$PWD/SpiralMatrix/test_SpiralMatrix.cpp
+    $$PWD/SpiralMatrix/test_SpiralMatrix.cpp \
+    $$PWD/SearchA2DMatrix/searcha2dmatrix.cpp \
+    $$PWD/SearchA2DMatrix/test_SearchA2DMatrix.cpp
