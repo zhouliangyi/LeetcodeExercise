@@ -34,7 +34,8 @@ HEADERS += \
     $$PWD/SpiralMatrixII/spiralmatrixii.h \
     $$PWD/SpiralMatrix/spiralmatrix.h \
     $$PWD/SearchA2DMatrix/searcha2dmatrix.h \
-    $$PWD/SearchA2DMatrixII/searcha2dmatrixII.h
+    $$PWD/SearchA2DMatrixII/searcha2dmatrixII.h \
+    $$PWD/Subsets/subsets.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -101,4 +102,6 @@ SOURCES += \
     $$PWD/SearchA2DMatrix/searcha2dmatrix.cpp \
     $$PWD/SearchA2DMatrix/test_SearchA2DMatrix.cpp \
     $$PWD/SearchA2DMatrixII/searcha2dmatrixII.cpp \
-    $$PWD/SearchA2DMatrixII/test_SearchA2DMatrixII.cpp
+    $$PWD/SearchA2DMatrixII/test_SearchA2DMatrixII.cpp \
+    $$PWD/Subsets/subsets.cpp \
+    $$PWD/Subsets/test_Subsets.cpp
