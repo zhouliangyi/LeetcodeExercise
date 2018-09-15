@@ -24,7 +24,7 @@ HEADERS += \
     $$PWD/Matrix/matrix.h \
     $$PWD/1-bitAnd2-bitCharacters/onebitcharactersolution.h \
     $$PWD/132Pattern/pattern132.h \
-    GasStation/gasstation.h \
+    $$PWD/GasStation/gasstation.h \
     $$PWD/ClimbingStairs/climbingstairs.h \
     $$PWD/LongestConsecutiveSequence/longestconsecutivesequencesolution.h \
     $$PWD/3SumClosest/threesumclasscloset.h \
@@ -35,7 +35,9 @@ HEADERS += \
     $$PWD/SpiralMatrix/spiralmatrix.h \
     $$PWD/SearchA2DMatrix/searcha2dmatrix.h \
     $$PWD/SearchA2DMatrixII/searcha2dmatrixII.h \
-    $$PWD/Subsets/subsets.h
+    $$PWD/Subsets/subsets.h\
+    $$PWD/JumpGameII/jumpgameII.h \
+    $$PWD/WordSearch/wordsearch.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -83,8 +85,8 @@ SOURCES += \
     $$PWD/1-bitAnd2-bitCharacters/test_onebitcharactersolution.cpp \
     $$PWD/132Pattern/pattern132.cpp \
     $$PWD/132Pattern/test_pattern132.cpp \
-    GasStation/gasstation.cpp \
-    GasStation/test_GasStation.cpp \
+    $$PWD/GasStation/gasstation.cpp \
+    $$PWD/GasStation/test_GasStation.cpp \
     $$PWD/ClimbingStairs/climbingstairs.cpp \
     $$PWD/ClimbingStairs/test_ClimbingStairs.cpp \
     $$PWD/LongestConsecutiveSequence/longestconsecutivesequencesolution.cpp \
@@ -104,4 +106,8 @@ SOURCES += \
     $$PWD/SearchA2DMatrixII/searcha2dmatrixII.cpp \
     $$PWD/SearchA2DMatrixII/test_SearchA2DMatrixII.cpp \
     $$PWD/Subsets/subsets.cpp \
-    $$PWD/Subsets/test_Subsets.cpp
+    $$PWD/Subsets/test_Subsets.cpp \
+    $$PWD/JumpGameII/jumpgameII.cpp \
+    $$PWD/JumpGameII/test_jumpgameII.cpp \
+    $$PWD/WordSearch/wordsearch.cpp \
+    $$PWD/WordSearch/test_WordSearch.cpp
