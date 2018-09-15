@@ -15,10 +15,3 @@ UI_DIR += ./GeneratedFiles
 RCC_DIR += ./GeneratedFiles
 QMAKE_CXXFLAGS += -std=c++11
 include(LeetProj.pri)
-
-HEADERS += \
-    JumpGameII/jumpgameII.h
-
-SOURCES += \
-    JumpGameII/jumpgameII.cpp \
-    JumpGameII/test_jumpgameII.cpp

@@ -2,7 +2,6 @@
 #define WORDSEARCH_H
 
 #include <algorithm>
-#include <hash_fun.h>
 #include <set>
 #include <unordered_map>
 #include <vector>
