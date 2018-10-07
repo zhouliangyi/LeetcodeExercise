@@ -2,7 +2,6 @@
 #define WORDSEARCH_H
 
 #include <algorithm>
-#include <set>
 #include <unordered_map>
 #include <vector>
 using namespace std;

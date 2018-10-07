@@ -37,7 +37,8 @@ HEADERS += \
     $$PWD/SearchA2DMatrixII/searcha2dmatrixII.h \
     $$PWD/Subsets/subsets.h\
     $$PWD/JumpGameII/jumpgameII.h \
-    $$PWD/WordSearch/wordsearch.h
+    $$PWD/WordSearch/wordsearch.h \
+    $$PWD/FirstMissingPositive/firstmissingpositive.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -110,4 +111,6 @@ SOURCES += \
     $$PWD/JumpGameII/jumpgameII.cpp \
     $$PWD/JumpGameII/test_jumpgameII.cpp \
     $$PWD/WordSearch/wordsearch.cpp \
-    $$PWD/WordSearch/test_WordSearch.cpp
+    $$PWD/WordSearch/test_WordSearch.cpp \
+    $$PWD/FirstMissingPositive/firstmissingpositive.cpp \
+    $$PWD/FirstMissingPositive/test_FirstMissingPositive.cpp
