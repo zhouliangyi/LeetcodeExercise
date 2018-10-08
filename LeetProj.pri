@@ -39,7 +39,8 @@ HEADERS += \
     $$PWD/JumpGameII/jumpgameII.h \
     $$PWD/WordSearch/wordsearch.h \
     $$PWD/FirstMissingPositive/firstmissingpositive.h \
-    $$PWD/MinimumPathSum/minimumpathsum.h
+    $$PWD/MinimumPathSum/minimumpathsum.h \
+    $$PWD/FindMinimumInRotatedSortedArray/findminimuminrotatedsortedarray.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -116,4 +117,6 @@ SOURCES += \
     $$PWD/FirstMissingPositive/firstmissingpositive.cpp \
     $$PWD/FirstMissingPositive/test_FirstMissingPositive.cpp \
     $$PWD/MinimumPathSum/minimumpathsum.cpp \
-    $$PWD/MinimumPathSum/test_MinimumPathSum.cpp
+    $$PWD/MinimumPathSum/test_MinimumPathSum.cpp \
+    $$PWD/FindMinimumInRotatedSortedArray/findminimuminrotatedsortedarray.cpp \
+    $$PWD/FindMinimumInRotatedSortedArray/test_FindMinimumInRotatedSortedArray.cpp
