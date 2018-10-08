@@ -40,7 +40,8 @@ HEADERS += \
     $$PWD/WordSearch/wordsearch.h \
     $$PWD/FirstMissingPositive/firstmissingpositive.h \
     $$PWD/MinimumPathSum/minimumpathsum.h \
-    $$PWD/FindMinimumInRotatedSortedArray/findminimuminrotatedsortedarray.h
+    $$PWD/FindMinimumInRotatedSortedArray/findminimuminrotatedsortedarray.h \
+    $$PWD/FindMinimumInRotatedSortedArrayII/findminimuminrotatedsortedarrayII.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -119,4 +120,6 @@ SOURCES += \
     $$PWD/MinimumPathSum/minimumpathsum.cpp \
     $$PWD/MinimumPathSum/test_MinimumPathSum.cpp \
     $$PWD/FindMinimumInRotatedSortedArray/findminimuminrotatedsortedarray.cpp \
-    $$PWD/FindMinimumInRotatedSortedArray/test_FindMinimumInRotatedSortedArray.cpp
+    $$PWD/FindMinimumInRotatedSortedArray/test_FindMinimumInRotatedSortedArray.cpp \
+    $$PWD/FindMinimumInRotatedSortedArrayII/findminimuminrotatedsortedarrayII.cpp \
+    $$PWD/FindMinimumInRotatedSortedArrayII/test_FindMinimumInRotatedSortedArrayII.cpp
