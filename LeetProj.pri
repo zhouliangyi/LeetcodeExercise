@@ -38,7 +38,8 @@ HEADERS += \
     $$PWD/Subsets/subsets.h\
     $$PWD/JumpGameII/jumpgameII.h \
     $$PWD/WordSearch/wordsearch.h \
-    $$PWD/FirstMissingPositive/firstmissingpositive.h
+    $$PWD/FirstMissingPositive/firstmissingpositive.h \
+    $$PWD/MinimumPathSum/minimumpathsum.h
 
 SOURCES += \
     $$PWD/addtwonumber/addtwonumber.cpp \
@@ -113,4 +114,6 @@ SOURCES += \
     $$PWD/WordSearch/wordsearch.cpp \
     $$PWD/WordSearch/test_WordSearch.cpp \
     $$PWD/FirstMissingPositive/firstmissingpositive.cpp \
-    $$PWD/FirstMissingPositive/test_FirstMissingPositive.cpp
+    $$PWD/FirstMissingPositive/test_FirstMissingPositive.cpp \
+    $$PWD/MinimumPathSum/minimumpathsum.cpp \
+    $$PWD/MinimumPathSum/test_MinimumPathSum.cpp
